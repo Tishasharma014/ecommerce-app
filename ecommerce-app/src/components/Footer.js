@@ -19,17 +19,19 @@ const Footer = () => (
         <div>
           <h4 className="font-bold mb-4">Customer Service</h4>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-blue-400">Help</a></li>
-            <li><a href="#" className="hover:text-blue-400">Contact</a></li>
-            <li><a href="#" className="hover:text-blue-400">Returns</a></li>
+            <li><a href="/help" className="hover:text-blue-400">Help</a></li>
+            <li><a href="/contact" className="hover:text-blue-400">Contact</a></li>
+            <li><a href="/returns" className="hover:text-blue-400">Returns</a></li>
+            
           </ul>
         </div>
         <div>
           <h4 className="font-bold mb-4">Follow Us</h4>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-blue-400">Facebook</a>
-            <a href="#" className="hover:text-blue-400">Twitter</a>
-            <a href="#" className="hover:text-blue-400">Instagram</a>
+            <a href="https://facebook.com" className="hover:text-blue-400">Facebook</a>
+            <a href="https://twitter.com" className="hover:text-blue-400">Twitter</a>
+            <a href="https://instagram.com" className="hover:text-blue-400">Instagram</a>
+            
           </div>
         </div>
       </div>
